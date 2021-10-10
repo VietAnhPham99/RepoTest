@@ -13,8 +13,8 @@ html, body {
     scroll-behavior: smooth;
 }
 
-.mb-90 {
-    margin-bottom: 90px;
+.mb-80 {
+    margin-bottom: 80px;
 }
 
 .mb-30 {
@@ -38,15 +38,18 @@ html, body {
 .container {
     max-width: 662px;
     margin: auto;
-    padding: 0 20px;
+    padding: 85px 20px;
 }
 
 /* header */
 
 #header {
+    position: fixed;
     width: 100%;
     padding-top: 23px;
     background-color: #f4f4f4;
+    z-index: 1;
+    box-shadow: 0 0 10px #ccc;
 }
 
 #header .header__main {
@@ -96,8 +99,8 @@ html, body {
     content: "V.A.P";
     position: absolute;
     font-size: 270px;
-    left: -90px;
-    top: -95px;
+    left: -8%;
+    top: -10%;
     z-index: -1;
     color: #f4f4f4;
     font-family: initial;
@@ -110,7 +113,7 @@ html, body {
 
 .card__section p {
     color: #4e4e4e;
-    line-height: 28px;
+    line-height: 1.7;
     margin-bottom: 30px;
 }
 
@@ -125,17 +128,19 @@ html, body {
 .card__section::after {
     content: url(https://draco.afnizarnur.com/img/separator.png);
     position: absolute;
+    margin: 95px 0px;
 }
 
 /* card__second */
 
+#card__second {
+    
+}
+
 .card__second--section::after {
     content: url(https://draco.afnizarnur.com/img/separator.png);
     position: absolute;
-}
-
-#card__second {
-
+    margin: 95px 0px;
 }
 
 .card__second--section {
@@ -199,6 +204,7 @@ html, body {
 .card__third--section::after {
     content: url(https://draco.afnizarnur.com/img/separator.png);
     position: absolute;
+    margin: 95px 0px;
 }
 
 /* card four */
@@ -230,12 +236,13 @@ html, body {
 .card__four--section::after {
     content: url(https://draco.afnizarnur.com/img/separator.png);
     position: absolute;
+    margin: 95px 0px;
 }
 
 /* quote */
 
 #quote {
-    background: URL('/Draco/assets/img/quote/Neon\ Pink.PNG')center / cover no-repeat;
+    background: url('/Draco/assets/img/quote/Neon\ Pink.png')center / cover no-repeat;
     padding: 20px 0;
     margin-top: 120px;
 }
