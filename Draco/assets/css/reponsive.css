@@ -1,0 +1,137 @@
+/* PC */
+
+@media only screen and (min-width: 1024px) {
+
+    .modal {
+        display: none;
+    }
+
+    #header i {
+        display: none;
+    }
+
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    
+    .modal {
+        display: none;
+    }
+
+    #header i {
+        display: none;
+    }
+
+    #card h1::before {
+        content: "V.A.P";
+        position: absolute;
+        font-size: 270px;
+        left: -5%;
+        top: -10%;
+        z-index: -1;
+        color: #f4f4f4;
+        font-family: initial;
+    }
+    
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 739px) {
+    html, body {
+        width: 143.5%;
+        font-size: 20px;
+        scroll-behavior: smooth;
+    }
+    
+    #header {
+        height: 60px;
+    }
+
+    #header i {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+
+    #header .header__main {
+        display: none;
+    }
+
+    #card {
+        padding: 100px 0 60px 0;
+    }
+
+    #card h1::before {
+        content: "V.A.P";
+        position: absolute;
+        font-size: 200px;
+        left: 55px;
+        top: -50px;
+        z-index: -1;
+        color: #f4f4f4;
+        font-family: initial;
+    }
+
+    .modal.open {
+        display: flex;
+    }
+
+    .modal {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .modal__main {
+        background: #f4f4f4;
+        width: 80%;
+        height: 100%;
+    }
+
+    .modal__main--section {
+        width: 100%;
+        height: 85px;
+        background: #5e5e5e;
+    }
+
+    .modal__main--section img {
+        width: 76px;
+        color: #f4f4f4;
+    }
+
+    .modal__main--section i {
+        color: #f4f4f4;
+        float: right;
+        padding: 15px;
+        margin-right: 20px;
+        font-size: 50px;
+    }
+
+    .modal__main--content {
+
+    }
+
+    .modal__main--content ul {
+        list-style-type: none;
+    }
+
+    .modal__main--content ul li {
+        padding: 0 20px;
+    }
+
+    .modal__main--content ul li a {
+        width: 100%;
+        text-decoration: none;
+        color: #222;
+        display: block;
+        padding: 30px 0;
+        border-bottom: 1px solid #5e5e5e;
+    }
+}
