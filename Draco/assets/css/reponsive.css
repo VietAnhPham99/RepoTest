@@ -73,10 +73,6 @@
         color: #f4f4f4;
         font-family: initial;
     }
-    
-    .footer__section {
-        font-size: 4em;
-    }
 
     .modal.open {
         display: flex;
