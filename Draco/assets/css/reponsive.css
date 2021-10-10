@@ -42,7 +42,6 @@
 @media only screen and (max-width: 739px) {
     html, body {
         width: 100vh;
-        font-size: 3em;
         scroll-behavior: smooth;
     }
     
@@ -62,6 +61,16 @@
     #card {
         padding: 100px 0 60px 0;
     }
+    
+    #card .card__avt {
+        width: 140px;
+        height: 140px;
+    }
+
+    #card h1 {
+        margin-left: 32px;
+        font-size: 60px !important;
+    }
 
     #card h1::before {
         content: "V.A.P";
@@ -72,6 +81,31 @@
         z-index: -1;
         color: #f4f4f4;
         font-family: initial;
+    }
+
+    .card__four--list h1,
+    .card__third--list h1,
+    .card__second--list h1 {
+        font-size: 60px;
+    }
+
+    .card__section p,
+    .card__four--list ul li:first-child,
+    .card__third--list ul li:first-child,
+    .card__second--list ul li {
+        font-size: 30px;
+    }
+
+    #quote h1,
+    .card__four--list ul li,
+    .card__third--list ul li,
+    .card__second--list ul li a {
+        font-size: 40px;
+    }
+
+    .footer__list,
+    .footer__unit p {
+        font-size: 20px;
     }
 
     .modal.open {
@@ -102,7 +136,7 @@
     }
 
     .modal__main--section img {
-        width: 76px;
+        width: 80px;
         color: #f4f4f4;
     }
 
