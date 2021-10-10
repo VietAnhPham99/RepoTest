@@ -42,7 +42,7 @@
 @media only screen and (max-width: 739px) {
     html, body {
         width: 100vh;
-        font-size: 2em;
+        font-size: 3em;
         scroll-behavior: smooth;
     }
     
@@ -75,7 +75,7 @@
     }
     
     .footer__section {
-        font-size: 2em;
+        font-size: 4em;
     }
 
     .modal.open {
