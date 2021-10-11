@@ -242,7 +242,7 @@ html, body {
 /* quote */
 
 #quote {
-    background: url('../img/quote/Neon\ Pink.png')center / cover no-repeat;
+    background: url('../img/quote/Neon\ Pink.png')top center / cover no-repeat;
     padding: 20px 0;
     margin-top: 120px;
 }
@@ -286,7 +286,7 @@ footer {
 
 .footer__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
