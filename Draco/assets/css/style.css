@@ -95,6 +95,13 @@ html, body {
     padding: 60px 0 70px 0;
 }
 
+#card h1 {
+    font-size: 40px;
+    color: #3e3e3e;
+    letter-spacing: 2px;
+    letter-spacing: 20px;
+}
+
 #card h1::before {
     content: "V.A.P";
     position: absolute;
@@ -286,7 +293,7 @@ footer {
 
 .footer__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -297,7 +304,8 @@ footer {
 .footer__list li a {
     text-decoration: none;
     color: #4e4e4e;
-    margin-left: 8px;
+    margin-right: 30px;
+    padding-left: 10px;
     transition: color ease-in .3s;
 }
 
