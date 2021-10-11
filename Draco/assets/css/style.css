@@ -242,7 +242,7 @@ html, body {
 /* quote */
 
 #quote {
-    background: url('https://scontent.fhan4-2.fna.fbcdn.net/v/t1.6435-9/83045052_1034866363538792_5984747918626652160_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=174925&_nc_ohc=DEV4sfzYFZwAX9c7mnU&_nc_oc=AQkQgAM3JBExtYIF30ENE2CwlVEegHxoPRpP1xWLFrjXzIBS47GN9oJrC06COy78GAA&_nc_ht=scontent.fhan4-2.fna&oh=60b20ffb4c423d2da7e10c54270a535a&oe=61883F29')center / cover no-repeat;
+    background: url('../img/quote/Neon\ Pink.png')center / cover no-repeat;
     padding: 20px 0;
     margin-top: 120px;
 }
