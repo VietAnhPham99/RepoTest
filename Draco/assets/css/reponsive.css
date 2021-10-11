@@ -14,7 +14,7 @@
 
 /* Tablet */
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 739px) and (max-width: 1023px) {
     
     .modal {
         display: none;
@@ -39,10 +39,17 @@
 
 /* Mobile */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 413px) {
+
     html, body {
         width: 100vh;
         scroll-behavior: smooth;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: auto;
+        padding: 85px 45px;
     }
     
     #header {
@@ -57,55 +64,81 @@
     #header .header__main {
         display: none;
     }
-
-    #card {
-        padding: 100px 0 60px 0;
-    }
     
     #card .card__avt {
-        width: 140px;
-        height: 140px;
+        width: 100px;
+        height: 100px;
+        margin-left: 12px;
     }
 
     #card h1 {
-        margin-left: 32px;
-        font-size: 60px !important;
+        padding-left: 50px;
+        font-size: 35px;
+        letter-spacing: 15px;
     }
 
     #card h1::before {
         content: "V.A.P";
         position: absolute;
-        font-size: 200px;
-        left: 55px;
-        top: -50px;
+        font-size: 160px;
+        left: 15px;
+        top: -88px;
         z-index: -1;
         color: #f4f4f4;
         font-family: initial;
     }
 
+    #card p {
+        font-size: 25px;
+    }
+
     .card__four--list h1,
     .card__third--list h1,
     .card__second--list h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
-    .card__section p,
     .card__four--list ul li:first-child,
     .card__third--list ul li:first-child,
     .card__second--list ul li {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     #quote h1,
     .card__four--list ul li,
     .card__third--list ul li,
     .card__second--list ul li a {
-        font-size: 40px;
+        font-size: 30px;
     }
 
-    .footer__list,
+    footer {
+        padding-top: 0;
+    }
+
+    .footer__section .footer__unit,
+    .footer__section {
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .footer__list li a {
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .footer__unit ul li {
+        display: inline;
+    }
+
     .footer__unit p {
-        font-size: 20px;
+        font-size: 25px;
+    }
+
+    .footer__list {
+        display: block;
     }
 
     .modal.open {
@@ -154,6 +187,7 @@
 
     .modal__main--content ul {
         list-style-type: none;
+        padding: 65px 0px;
     }
 
     .modal__main--content ul li {
@@ -167,5 +201,168 @@
         display: block;
         padding: 30px 0;
         border-bottom: 1px solid #5e5e5e;
+        font-size: 30px;
+    }
+
+
+}
+
+/* mobile size M */
+
+@media only screen and (min-width: 414px) and (max-width: 740px) {
+    html, body {
+        width: 100vh;
+        scroll-behavior: smooth;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: auto;
+        padding: 85px 60px;
+    }
+    
+    #header {
+        height: 60px;
+    }
+
+    #header i {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+
+    #header .header__main {
+        display: none;
+    }
+
+    #card {
+        padding: 100px 0 60px 0;
+    }
+    
+    #card .card__avt {
+        width: 118px;
+        height: 118px;
+    }
+
+    #card h1 {
+        margin-left: 35px;
+        font-size: 45px;
+    }
+
+    #card h1::before {
+        content: "V.A.P";
+        position: absolute;
+        font-size: 210px;
+        left: 20px;
+        top: -100px;
+        z-index: -1;
+        color: #f4f4f4;
+        font-family: initial;
+    }
+
+    #card p {
+        padding: 0 20px;
+        font-size: 35px;
+    }
+
+    .card__four--list h1,
+    .card__third--list h1,
+    .card__second--list h1 {
+        font-size: 55px;
+    }
+
+    .card__four--list ul li:first-child,
+    .card__third--list ul li:first-child,
+    .card__second--list ul li {
+        font-size: 25px;
+    }
+
+    #quote h1,
+    .card__four--list ul li,
+    .card__third--list ul li,
+    .card__second--list ul li a {
+        font-size: 35px;
+    }
+
+    footer {
+        padding-top: 0;
+    }
+
+    .footer__section .footer__unit,
+    .footer__section {
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .footer__unit p {
+        font-size: 25px;
+    }
+
+    .footer__list {
+        
+    }
+
+    .modal.open {
+        display: flex;
+    }
+
+    .modal {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .modal__main {
+        background: #f4f4f4;
+        width: 80%;
+        height: 100%;
+    }
+
+    .modal__main--section {
+        width: 100%;
+        height: 85px;
+        background: #5e5e5e;
+    }
+
+    .modal__main--section img {
+        width: 80px;
+        color: #f4f4f4;
+    }
+
+    .modal__main--section i {
+        color: #f4f4f4;
+        float: right;
+        padding: 15px;
+        margin-right: 20px;
+        font-size: 50px;
+    }
+
+    .modal__main--content {
+
+    }
+
+    .modal__main--content ul {
+        list-style-type: none;
+        padding: 65px 0px;
+    }
+
+    .modal__main--content ul li {
+        padding: 0 20px;
+    }
+
+    .modal__main--content ul li a {
+        width: 100%;
+        text-decoration: none;
+        color: #222;
+        display: block;
+        padding: 30px 0;
+        border-bottom: 1px solid #5e5e5e;
+        font-size: 30px;
     }
 }
